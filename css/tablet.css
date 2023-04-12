@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+    /* BANNER */
+
+    .banner-text h1 {
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    .banner-text span {
+        font-size: 0.5em;
+    }
+
+    .banner-text {
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* NAVBAR */
+
+    .nav-container {
+        padding: 16px 0;
+    }
+
+    #nav-bar a:link,
+    #nav-bar a:visited {
+        font-size: 0.8em;
+    }
+
+    .bonus {
+        display: none;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .target p {
+        line-height: 1.5;
+    }
+}

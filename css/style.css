@@ -1,0 +1,463 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* text color: #343a40 */
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* CSS banner */
+
+.banner-text h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.banner-text span {
+    font-size: 12px;
+}
+
+.banner {
+    display: block;
+    width: 1400px;
+    margin: auto;
+    /* margin-bottom: 24px; */
+    position: relative;
+    filter: brightness(70%);
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    color: #f1f3f5;
+    text-align: center;
+    line-height: 1.1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CSS Navbar */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.nav-text {
+    display: inline-block;
+    text-align: center;
+    color: #212529;
+}
+
+.nav-text p {
+    font-size: 24px;
+}
+
+.nav-text span {
+    font-size: 12px;
+}
+
+#nav-bar a:link,
+#nav-bar a:visited {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1c7ed6;
+    cursor: pointer;
+}
+
+/* CSS about */
+
+.about-container {
+    width: 1400px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #343a40;
+}
+
+.target {
+    background: #f1f3f5;
+    padding: 64px 32px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.target p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.personal-info {
+    background: #e9ecef;
+    padding: 64px 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+    padding-left: 0;
+}
+
+.info li {
+    list-style: none;
+}
+
+.info li span {
+    font-weight: 600;
+}
+
+.link-web a:link,
+.link-web a:visited {
+    color: #1c7ed6;
+    cursor: pointer;
+}
+
+.link-web a {
+    margin-right: 12px;
+}
+
+.link-web a:last-child {
+    margin-left: 0;
+}
+
+/* CSS job info */
+
+/* CSS Kinh nghiệm, Học vấn, Hoạt động */
+
+.job-container {
+    width: 1200px;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 32px;
+    /* align-items: center; */
+    justify-content: center;
+    color: #343a40;
+    line-height: 1.5;
+}
+
+.exp,
+.education,
+.work,
+.hobby,
+.language,
+.skill {
+    padding: 32px;
+    border: 1px solid #dee2e6;
+}
+
+.job-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.job-container h2 {
+    font-size: 24px;
+    font-weight: 500;
+    width: 75%;
+}
+
+.job-icon {
+    transform: scale(2.5) translate(50%, -25%);
+    width: 25%;
+}
+
+.title-content {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.time {
+    margin: 12px auto;
+}
+
+.time span {
+    color: #fff;
+    padding: 4px 8px;
+    background-color: #1c7ed6;
+    border-radius: 6px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.li-bonus {
+    position: relative;
+    margin: 0;
+    padding-left: 48px;
+}
+
+.li-bonus::before {
+    content: "";
+    border-radius: 50%;
+    background-color: #1c7ed6;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    height: 8px;
+    width: 8px;
+}
+
+/* CSS Sở thích, Ngôn ngữ, Kỹ năng */
+
+.hobby-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hobby-icon-1,
+.hobby-icon-2 {
+    width: 24px;
+    height: 24px;
+    padding: 24px;
+    border: 1px solid #1c7ed6;
+    border-radius: 50%;
+    color: #1c7ed6;
+    position: relative;
+    font-size: 18px;
+}
+
+.hobby-icon-1::before {
+    position: absolute;
+    top: 32%;
+    left: 26%;
+}
+
+.hobby-icon-2::before {
+    position: absolute;
+    top: 31%;
+    left: 34%;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.point {
+    background: #1c7ed6;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 64px;
+}
+
+.non-point {
+    background: #ced4da;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 64px;
+}
+
+/* CSS chứng chỉ, giải thưởng */
+
+.cert-container {
+    width: 1400px;
+    background-color: #f1f3f5;
+    margin: 24px auto;
+    padding: 48px;
+    color: #343a40;
+}
+
+.cert-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.cert {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cert-1,
+.cert-2 {
+    padding-bottom: 32px;
+    border-bottom: 3px solid #d6c08d;
+}
+
+.cert-2 {
+    padding-left: 32px;
+}
+
+.cert-2::before {
+    content: "";
+    background-color: #d6c08d;
+    display: inline-block;
+    height: 119px;
+    margin-right: 10px;
+    width: 3px;
+}
+.cert-3 {
+    padding-top: 32px;
+    padding-left: 16px;
+}
+
+.cert span {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cert p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.img-cert {
+    width: 240px;
+}
+
+/* CSS Dự án */
+
+.project-container {
+    width: 1400px;
+    margin: 24px auto;
+    padding: 48px;
+    color: #343a40;
+}
+
+.project-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    border-collapse: collapse;
+}
+
+.project-img {
+    width: 400px;
+    border: 1px solid #ced4da;
+    border-bottom: none;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 24px 12px;
+    border: 1px solid #ced4da;
+}
+
+.project-info {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 24px 12px;
+    border: 1px solid #ced4da;
+}
+
+.project-time {
+    color: #fff;
+    padding: 6px 10px;
+    background-color: #1c7ed6;
+    border-radius: 100px;
+}
+
+table {
+    width: 400px;
+    height: 266px;
+    border-collapse: collapse;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+tr td:first-child {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: none;
+}
+
+.th {
+    border-top: none;
+}
+
+td {
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    padding: 12px;
+    text-align: left;
+}
+
+/* CSS footer */
+
+.footer-container {
+    width: 1400px;
+    height: 80px;
+    margin: 24px auto;
+    background-color: #f1f3f5;
+    color: #343a40;
+    font-size: 16px;
+}
+
+.footer-icon {
+    color: #1c7ed6;
+    font-size: 24px;
+}
+
+.footer-container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 30px;
+}
+
+.footer-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+/* CSS năng cao */
+
+.bonus {
+    width: 68px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    transform: scale(2);
+}

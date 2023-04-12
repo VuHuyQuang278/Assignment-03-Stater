@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    /* BANNER */
+
+    /* NAVBAR */
+
+    .nav-container {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .bonus {
+        display: none;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        width: 500px;
+        margin: 0px auto;
+        grid-template-columns: 1fr;
+    }
+}
