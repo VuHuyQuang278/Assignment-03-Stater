@@ -360,6 +360,13 @@ body {
     border-collapse: collapse;
 }
 
+.project-content a:link,
+.project-content a:visited {
+    color: #343a40;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .project-img {
     border: 1px solid #ced4da;
     border-bottom: none;
