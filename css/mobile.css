@@ -58,17 +58,10 @@
 
     /* PROJECT */
 
-    .project-container {
-        width: 450px;
-    }
-
     .project-content {
         flex-direction: column;
         gap: 24px;
-    }
-
-    .project-img {
-        width: 400px;
+        width: 80%;
     }
 
     .project-title {
@@ -86,15 +79,10 @@
     }
 
     table {
-        width: 400px;
         font-size: 1em;
     }
 
     /* FOOTER */
-
-    .footer-container {
-        width: 450px;
-    }
 
     .footer-icon {
         font-size: 1em;

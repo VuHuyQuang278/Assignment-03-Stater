@@ -2,7 +2,7 @@
     /* BANNER */
 
     .banner-text h1 {
-        font-size: 1.3em;
+        font-size: 1.5em;
         font-weight: 500;
     }
 
@@ -24,7 +24,7 @@
 
     #nav-bar a:link,
     #nav-bar a:visited {
-        font-size: 0.8em;
+        font-size: 0.85em;
     }
 
     .bonus {
@@ -33,10 +33,6 @@
 
     /* ABOUT */
 
-    .about-container {
-        width: 700px;
-    }
-
     .target p {
         line-height: 1.5;
     }
@@ -44,7 +40,6 @@
     /* JOB INFO */
 
     .job-container {
-        width: 700px;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -78,16 +73,11 @@
     /* PROJECT */
 
     .project-container {
-        width: 700px;
         padding: 24px;
     }
 
     .project-content {
         gap: 4px;
-    }
-
-    .project-img {
-        width: 220px;
     }
 
     .project-title {
@@ -106,14 +96,10 @@
     }
 
     table {
-        width: 220px;
         font-size: 0.8em;
     }
 
     /* FOOTER */
-    .footer-container {
-        width: 700px;
-    }
 
     .footer-icon {
         font-size: 1em;

@@ -32,11 +32,10 @@ body {
 .banner {
     display: block;
     width: 1400px;
-    margin: auto;
-    /* margin-bottom: 24px; */
+    margin: 0 auto;
     position: relative;
     filter: brightness(70%);
-    max-width: 100%;
+
     height: auto;
 }
 
@@ -75,7 +74,7 @@ body {
 
 #nav-bar a:link,
 #nav-bar a:visited {
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: #1c7ed6;
@@ -85,7 +84,6 @@ body {
 /* CSS about */
 
 .about-container {
-    width: 1400px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -147,13 +145,10 @@ body {
 /* CSS Kinh nghiệm, Học vấn, Hoạt động */
 
 .job-container {
-    width: 1200px;
     margin: 24px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: auto auto; */
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
-    /* align-items: center; */
     justify-content: center;
     color: #343a40;
     line-height: 1.5;
@@ -201,6 +196,7 @@ body {
     padding: 4px 8px;
     background-color: #1c7ed6;
     border-radius: 6px;
+    display: inline-block;
 }
 
 .list {
@@ -285,7 +281,6 @@ body {
 /* CSS chứng chỉ, giải thưởng */
 
 .cert-container {
-    width: 1400px;
     background-color: #f1f3f5;
     margin: 24px auto;
     padding: 48px;
@@ -352,9 +347,8 @@ body {
 /* CSS Dự án */
 
 .project-container {
-    width: 1400px;
     margin: 24px auto;
-    padding: 48px;
+    padding: 32px;
     color: #343a40;
 }
 
@@ -367,7 +361,6 @@ body {
 }
 
 .project-img {
-    width: 400px;
     border: 1px solid #ced4da;
     border-bottom: none;
 }
@@ -380,14 +373,26 @@ body {
     border: 1px solid #ced4da;
 }
 
+.project-title a:link,
+.project-title a:visited {
+    color: #343a40;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .project-info {
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 24px 12px;
     border: 1px solid #ced4da;
+}
+
+.project-info p {
+    margin-bottom: 0;
 }
 
 .project-time {
@@ -398,7 +403,7 @@ body {
 }
 
 table {
-    width: 400px;
+    /* width: 400px; */
     border-collapse: collapse;
     border: 1px solid #ced4da;
     font-size: 16px;
