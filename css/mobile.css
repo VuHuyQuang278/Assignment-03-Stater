@@ -89,4 +89,14 @@
         width: 400px;
         font-size: 1em;
     }
+
+    /* FOOTER */
+
+    .footer-container {
+        width: 450px;
+    }
+
+    .footer-icon {
+        font-size: 1em;
+    }
 }

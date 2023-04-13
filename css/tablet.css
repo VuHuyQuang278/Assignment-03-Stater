@@ -109,4 +109,13 @@
         width: 220px;
         font-size: 0.8em;
     }
+
+    /* FOOTER */
+    .footer-container {
+        width: 700px;
+    }
+
+    .footer-icon {
+        font-size: 1em;
+    }
 }
