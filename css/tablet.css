@@ -35,7 +35,6 @@
 
     .about-container {
         width: 700px;
-        margin: 0 auto;
     }
 
     .target p {
@@ -47,5 +46,32 @@
     .job-container {
         width: 700px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* CERTIFICATE */
+
+    .cert-container {
+        width: 700px;
+    }
+
+    .cert {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 18px;
+    }
+
+    .cert-2::before {
+        content: "";
+        background-color: #d6c08d;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 250px;
+        width: 2px;
+    }
+
+    .cert-3 {
+        padding-left: 0;
     }
 }

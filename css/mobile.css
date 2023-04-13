@@ -28,4 +28,31 @@
         width: 450px;
         grid-template-columns: 1fr;
     }
+
+    /* CERTIFICATE */
+
+    .cert-container {
+        width: 450px;
+    }
+
+    .cert-content {
+        grid-template-columns: 1fr;
+    }
+
+    .cert {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 18px;
+    }
+
+    .cert-2,
+    .cert-1 {
+        padding-left: 0;
+        padding-top: 32px;
+    }
+
+    .cert-2::before {
+        content: "";
+        display: none;
+    }
 }
