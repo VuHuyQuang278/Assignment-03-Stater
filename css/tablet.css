@@ -74,4 +74,39 @@
     .cert-3 {
         padding-left: 0;
     }
+
+    /* PROJECT */
+
+    .project-container {
+        width: 700px;
+        padding: 24px;
+    }
+
+    .project-content {
+        gap: 4px;
+    }
+
+    .project-img {
+        width: 220px;
+    }
+
+    .project-title {
+        font-size: 0.8em;
+        padding: 12px;
+        height: 64px;
+    }
+
+    .project-info {
+        font-size: 0.8em;
+        padding: 12px 6px;
+    }
+
+    .project-info p {
+        margin-bottom: 0;
+    }
+
+    table {
+        width: 220px;
+        font-size: 0.8em;
+    }
 }

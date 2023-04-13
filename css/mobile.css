@@ -55,4 +55,38 @@
         content: "";
         display: none;
     }
+
+    /* PROJECT */
+
+    .project-container {
+        width: 450px;
+    }
+
+    .project-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .project-img {
+        width: 400px;
+    }
+
+    .project-title {
+        font-size: 1em;
+        padding: 24px;
+    }
+
+    .project-info {
+        font-size: 1em;
+        padding: 24px 12px;
+    }
+
+    .project-info p {
+        margin-bottom: 0;
+    }
+
+    table {
+        width: 400px;
+        font-size: 1em;
+    }
 }
