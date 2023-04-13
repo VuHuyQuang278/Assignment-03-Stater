@@ -34,11 +34,18 @@
     /* ABOUT */
 
     .about-container {
-        width: 750px;
+        width: 700px;
         margin: 0 auto;
     }
 
     .target p {
         line-height: 1.5;
+    }
+
+    /* JOB INFO */
+
+    .job-container {
+        width: 700px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
