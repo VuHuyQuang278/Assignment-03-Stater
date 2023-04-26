@@ -309,6 +309,7 @@ body {
 
 .cert-content {
     display: grid;
+    /* Chia grid thành 2 cột */
     grid-template-columns: 1fr 1fr;
     gap: 0px;
     align-content: center;
@@ -412,10 +413,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 24px;
     padding: 24px 12px;
     border: 1px solid #ced4da;
+}
+
+.project-author {
+    display: flex;
+    gap: 24px;
 }
 
 .project-info p {
@@ -430,7 +436,6 @@ body {
 }
 
 table {
-    /* width: 400px; */
     border-collapse: collapse;
     border: 1px solid #ced4da;
     font-size: 16px;
@@ -492,5 +497,6 @@ td {
     width: 68px;
     border: 4px solid #fff;
     border-radius: 50%;
+    /* Phóng to ảnh */
     transform: scale(2);
 }

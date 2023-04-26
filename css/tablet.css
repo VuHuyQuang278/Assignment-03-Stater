@@ -42,10 +42,18 @@
         line-height: 1.5;
     }
 
+    .list {
+        padding-left: 0;
+    }
+
     /* JOB INFO */
 
     .job-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hobby-content {
+        gap: 12px;
     }
 
     /* CERTIFICATE */
@@ -98,6 +106,12 @@
 
     .project-info p {
         margin-bottom: 0;
+    }
+
+    .project-author {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 
     table {
