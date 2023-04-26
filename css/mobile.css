@@ -8,10 +8,16 @@
         gap: 12px;
         align-items: flex-start;
         margin-left: 48px;
+        padding: 16px 0;
     }
 
     .bonus {
         display: none;
+    }
+
+    #nav-bar a {
+        border: none;
+        padding: 0;
     }
 
     /* ABOUT */
