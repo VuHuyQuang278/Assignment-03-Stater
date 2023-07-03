@@ -1,126 +1,126 @@
-@media screen and (max-width: 768px) {
-    /* BANNER */
+@media screen and (max-width: 1024px) {
+  /* BANNER */
 
-    .banner-text h1 {
-        font-size: 1.5em;
-        font-weight: 500;
-        margin-bottom: 0;
-    }
+  .banner-text h1 {
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
 
-    .banner-text span {
-        font-size: 0.5em;
-    }
+  .banner-text span {
+    font-size: 0.5em;
+  }
 
-    .banner-text {
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+  .banner-text {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-    /* NAVBAR */
+  /* NAVBAR */
 
-    .nav-container {
-        padding: 0;
-    }
+  .nav-container {
+    padding: 0;
+  }
 
-    #nav-bar a:link,
-    #nav-bar a:visited {
-        font-size: 0.85em;
-    }
+  #nav-bar a:link,
+  #nav-bar a:visited {
+    font-size: 0.85em;
+  }
 
-    .bonus {
-        display: none;
-    }
+  .bonus {
+    display: none;
+  }
 
-    #nav-bar a {
-        padding: auto 24px;
-    }
+  #nav-bar a {
+    padding: auto 24px;
+  }
 
-    /* ABOUT */
+  /* ABOUT */
 
-    .target p {
-        line-height: 1.5;
-    }
+  .target p {
+    line-height: 1.5;
+  }
 
-    .list {
-        padding-left: 0;
-    }
+  .list {
+    padding-left: 0;
+  }
 
-    /* JOB INFO */
+  /* JOB INFO */
 
-    .job-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .job-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .hobby-content {
-        gap: 12px;
-    }
+  .hobby-content {
+    gap: 12px;
+  }
 
-    /* CERTIFICATE */
+  /* CERTIFICATE */
 
-    .cert-container {
-        width: 700px;
-    }
+  .cert-container {
+    width: 700px;
+  }
 
-    .cert {
-        flex-direction: column;
-        justify-content: flex-start;
-        gap: 18px;
-    }
+  .cert {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18px;
+  }
 
-    .cert-2::before {
-        content: "";
-        background-color: #d6c08d;
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 250px;
-        width: 2px;
-    }
+  .cert-2::before {
+    content: "";
+    background-color: #d6c08d;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 2px;
+  }
 
-    .cert-3 {
-        padding-left: 0;
-    }
+  .cert-3 {
+    padding-left: 0;
+  }
 
-    /* PROJECT */
+  /* PROJECT */
 
-    .project-container {
-        padding: 24px;
-    }
+  .project-container {
+    padding: 24px;
+  }
 
-    .project-content {
-        gap: 4px;
-    }
+  .project-content {
+    gap: 4px;
+  }
 
-    .project-title {
-        font-size: 0.8em;
-        padding: 12px;
-        height: 64px;
-    }
+  .project-title {
+    font-size: 0.8em;
+    padding: 12px;
+    height: 64px;
+  }
 
-    .project-info {
-        font-size: 0.8em;
-        padding: 12px 6px;
-    }
+  .project-info {
+    font-size: 0.8em;
+    padding: 12px 6px;
+  }
 
-    .project-info p {
-        margin-bottom: 0;
-    }
+  .project-info p {
+    margin-bottom: 0;
+  }
 
-    .project-author {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
+  .project-author {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 
-    table {
-        font-size: 0.8em;
-    }
+  table {
+    font-size: 0.8em;
+  }
 
-    /* FOOTER */
+  /* FOOTER */
 
-    .footer-icon {
-        font-size: 1em;
-    }
+  .footer-icon {
+    font-size: 1em;
+  }
 }
